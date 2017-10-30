@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.datasalvestamine.MainActivity">
+
+    <EditText
+        android:id="@+id/productInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addButtonClicked"
+        android:text="Add"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="142dp"
+        android:layout_alignBaseline="@+id/deleteButton"
+        android:layout_alignBottom="@+id/deleteButton"
+        android:layout_alignLeft="@+id/productInput"
+        android:layout_alignStart="@+id/productInput" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteButtonClicked"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="142dp"
+        android:layout_below="@+id/productInput"
+        android:layout_alignRight="@+id/productInput"
+        android:layout_alignEnd="@+id/productInput"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/productOutput"
+        android:layout_width="261dp"
+        android:layout_height="199dp"
+        android:layout_below="@+id/addButton"
+        android:layout_marginTop="53dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:layout_alignLeft="@+id/addButton"
+        android:layout_alignStart="@+id/addButton"
+        android:layout_alignRight="@+id/deleteButton"
+        android:layout_alignEnd="@+id/deleteButton" />
+
+</RelativeLayout>

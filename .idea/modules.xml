@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Sander\Desktop\mobiilirakendused\Data_Salvestamine-master\DataSalvestamine.iml" filepath="C:\Users\Sander\Desktop\mobiilirakendused\Data_Salvestamine-master\DataSalvestamine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data_Salvestamine-master.iml" filepath="$PROJECT_DIR$/Data_Salvestamine-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Sander\Desktop\mobiilirakendused\Data_Salvestamine-master\app\app.iml" filepath="C:\Users\Sander\Desktop\mobiilirakendused\Data_Salvestamine-master\app\app.iml" />
+    </modules>
+  </component>
+</project>
